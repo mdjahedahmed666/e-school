@@ -1,0 +1,33 @@
+.bg{
+    background-color: #F0FFF0;
+}
+nav ul li:hover{
+    border-bottom: 2px solid orange;
+}
+.icon{
+    position: absolute;
+    top: 5%;
+    right: 0;
+}
+.img{
+    display: inline-block;
+}
+.card{
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(.9);
+    transition: all 1s ease;
+}
+.navbar-brand:hover{
+    transform:rotate(-6deg);
+    transition: all 1s ease;
+}
+.iam img:hover{
+    transform: scale(.9);
+    transition: all 1s ease;
+}
+.testimonial img:hover{
+    transform: scale(1.4);
+    transition: all 1s ease;
+}
